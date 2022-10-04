@@ -1,0 +1,130 @@
+﻿*,
+:before,
+:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'GraphikLCG', 'Arial', sans-serif;
+
+    * {
+        font-family: 'GraphikLCG', 'Arial', sans-serif;
+        margin-bottom: 0;
+    }
+}
+
+ul,
+li {
+    list-style: none;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button,
+input,
+textarea,
+label {
+    padding: 0;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    border-radius: 0;
+    text-transform: none;
+    font-family: inherit;
+    text-decoration: none;
+
+    // -webkit-appearance: none;
+    // -moz-appearance: none;
+    // appearance: none;
+
+    &::-ms-clear {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    &::-ms-reveal {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    &::-webkit-search-decoration {
+        display: none;
+    }
+
+    &::-webkit-search-cancel-button {
+        display: none;
+    }
+
+    &::-webkit-search-results-button {
+        display: none;
+    }
+
+    &::-webkit-search-results-decoration {
+        display: none;
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+}
+
+img,
+main,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+textarea,
+input {
+    //placeholder
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+@keyframes autofill {
+    to {
+        color: #000000;
+        background: transparent;
+    }
+}
