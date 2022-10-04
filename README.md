@@ -1,4 +1,4 @@
-# vue-project
+# Kanban
 
 ## Project setup
 ```
